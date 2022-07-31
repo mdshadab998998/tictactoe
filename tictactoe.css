@@ -1,0 +1,118 @@
+#main{
+    width: 52.1%;
+    border-top: black 3px solid;
+    height: 400px;
+    position: relative;
+    left: 26%;
+    padding: 1%;
+    margin-top: 5%;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+}
+marquee{
+color: red;
+height: 40px;
+font-size: 20px;
+margin-top: 2%;
+}
+#select{
+    border: 1px white solid;
+}
+button{
+    width: 18%;
+    background-color: whitesmoke;
+    border: rgb(124, 122, 122) 1px solid;
+    border-radius: 10px;
+    /* padding: 2%; */
+}
+#X{
+    margin-left: 30%;
+}
+#O{
+    margin-left: 10% ;
+}
+td{
+    border: 5px solid rgb(141, 140, 140) !important;
+    height: 70px;
+    width: 70px;
+    font-size: 40px;
+}
+.up{
+    border-top:turquoise 1px solid !important ;
+}
+.botm{
+    border-bottom: turquoise 1px solid !important;
+}
+.left{
+     border-left: turquoise 1px solid !important; 
+}
+.right{
+    border-right: turquoise 1px solid !important;
+}
+#game{
+    position: relative;
+    top: 2%;
+    right: 2%;
+    background-color: turquoise;
+    padding-left: 38%;
+    text-align: center;
+    width: 104%;
+    border-top: turquoise 15px solid;
+    border-bottom: turquoise 10px solid;
+}
+h3{
+    color: turquoise;
+    text-align: center;
+    position: relative;
+    left: 400px;
+    height: 40px;
+    border: black 3px solid;
+    width: 800px;
+}
+a{
+    text-decoration: none;
+    color: turquoise;
+}
+#extra{
+    border-top: 3px black solid;
+    width: 800px;
+    margin-left: 400px;
+    position: relative;
+    bottom: 287px;
+}
+@media screen and (max-width:500px) {
+    #main{
+        width: 90%;
+        left: 2%;
+      
+    }
+    #game{
+        width: 102%;
+        left: -3px;
+        top: 6%;
+        padding-left: 20%;
+    }
+    #X{
+        width: 120px;
+        margin-left: 10%;
+    }
+    #O{
+        width: 120px;
+
+        margin-left: 10% ;
+    }
+    h3{
+        text-align: center;
+        position: relative;
+        bottom: 5px;
+        left: 8px;
+        height: 40px;
+        width: 90%;
+    }
+    #extra{
+        width: 88%;
+        margin-left: 9px;
+        position: relative;
+        bottom: 289px;    }
+    
+}

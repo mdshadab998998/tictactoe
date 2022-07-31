@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link rel="stylesheet" href="tictactoe.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="date" style="text-align: center;"> Tic tac Toe</h1>
+
+    <div id="main">
+        <select name="" id="select">
+            <option value="">easy</option>
+            <option value="">hard</option>
+            <option value="">mediam</option>
+        </select> <br> <br>
+        <button id="X">
+            X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Turn
+        </button>
+        <button id="O">
+            O&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Turn
+        </button>
+        <marquee id="banner" behavior="" direction=""> </marquee>
+
+        <!-- <p>palyer X win</p> -->
+        <div id="game">
+            <table>
+            <tr>
+                <td id="b1"  onclick=" myfunc1(); myfunc();" class="up left" ></td>
+                <td id="b2" onclick=" myfunc2(); myfunc();" class="up"></td>
+                <td id="b3" onclick=" myfunc3(); myfunc();" class="up right"></td>
+            </tr>
+            <tr>
+                <td id="b4" onclick=" myfunc4(); myfunc();" class="left"></td>
+                <td id="b5"  onclick=" myfunc5(); myfunc();"></td>
+                <td id="b6"  onclick=" myfunc6(); myfunc();" class="right"></td>
+
+            </tr>
+            <tr>
+                <td id="b7"  onclick=" myfunc7();myfunc();" class="botm left"></td>
+                <td id="b8"  onclick=" myfunc8(); myfunc();" class="botm"></td>
+                <td id="b9"  onclick=" myfunc9(); myfunc();" class="botm right"></td>
+
+            </tr>
+        </table>
+        
+
+        </div>
+
+      
+    </div>
+
+    <h3><a href="#" id="b" onclick="myfunc_reset()">Restart game</a></h3>
+    <div id="extra"></div>
+    
+</body>
+<script type="text/javascript" src="tictactoe.js"></script>
+
+</html>
